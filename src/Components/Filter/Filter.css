@@ -1,0 +1,60 @@
+.filter {
+  width: 200px;
+  height: fit-content;
+  padding: 0.5rem;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.filter > button {
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.filter > div {
+  flex-direction: column;
+  gap: 0.5rem;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.filter .price input {
+  width: 100%;
+  cursor: pointer;
+}
+
+.filter .sort-by {
+  padding: 0.2rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.filter .sort-by > div {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.filter .brand .input_container,
+.filter .gender .input_container,
+.filter .size .input_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.filter .brand,
+.filter .gender,
+.filter .size {
+  padding: 0.2rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
